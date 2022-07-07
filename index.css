@@ -1,0 +1,71 @@
+.navbar{
+    height: auto;
+    background-color:orange;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+.navbar ul {
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+   
+}
+ body{
+   
+    background-color:rgb(216, 66, 29);
+}
+.navbar li{
+    float: left;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ #movies{
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: grid;
+    grid-template-rows: repeat(3,auto);
+    grid-template-columns: repeat(3,1 fr);
+    gap: 20px;
+    
+} 
+img{
+    height: 300px;
+    width: 300px;
+}
+div{
+     
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 3px solid blueviolet;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+#sort-buttons select{
+    height: auto;
+    padding: 10px 10px ;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: bisque;
+    cursor: pointer;
+}
+#slideshow{
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 90%;
+    height: auto;
+}
+
+img{
+    height: 450px;
+    width: 100%;
+    border-radius: 15px;
+}  
+ 
